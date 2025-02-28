@@ -1,20 +1,16 @@
 .container {
 	display: inline-block;
-	clear: both;
 	width: 45%;
-	background-color: rgba(0, 0, 0, 0.8);
-	padding-top: 15px;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-bottom: 50px;
-	line-height: 1.4;
-	border-radius: 18px;
-	margin: 15px;
-}
-.row {
-	width: auto;
 	float: left;
-	padding-left: 10px;
+	margin-right: 20px;	
+	margin-left: 20px;
+	margin-top: 35px;
+	background-color: #cacaab;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	border-radius: 20px;
 }
 .row a {
 	color: white;
@@ -22,14 +18,8 @@
 }
 body {
 	background-color: #fbfad9;
-	color: white;
+	font-family: Tahoma, sans-serif;
 }
 .row li {
 	font-size: 17px;
-}
-h1 {
-	text-shadow: 1.5px 1.5px #8c8b5e;
-}
-.row h2 {
-	text-shadow: 1.5px 1.5px #8c8b5e;
 }
