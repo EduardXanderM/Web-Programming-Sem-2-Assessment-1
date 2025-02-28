@@ -8,6 +8,8 @@
 	padding-right: 30px;
 	padding-bottom: 50px;
 	line-height: 1.4;
+	border-radius: 18px;
+	margin: 15px;
 }
 .row {
 	width: 50%;
@@ -19,15 +21,13 @@
 }
 body {
 	background-color: #56bd5e;
+	color: white;
 }
 .row li {
 	font-size: 17px;
 }
-body {
-	color: white;
-}
 h1 {
-	text-shadow: 2px 2px #56bd5e;
+	text-shadow: 1px 1px #56bd5e;
 }
 .row h2 {
 	text-shadow: 2px 2px #56bd5e;
