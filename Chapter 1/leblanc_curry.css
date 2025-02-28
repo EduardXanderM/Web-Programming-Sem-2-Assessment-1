@@ -1,7 +1,7 @@
 .container {
-	display: table;
+	display: inline-block;
 	clear: both;
-	width: 60%;
+	width: 45%;
 	background-color: rgba(0, 0, 0, 0.8);
 	padding-top: 15px;
 	padding-left: 30px;
@@ -12,23 +12,24 @@
 	margin: 15px;
 }
 .row {
-	width: 50%;
+	width: auto;
 	float: left;
+	padding-left: 10px;
 }
 .row a {
 	color: white;
 	font-size: 17px;
 }
 body {
-	background-color: #56bd5e;
+	background-color: #fbfad9;
 	color: white;
 }
 .row li {
 	font-size: 17px;
 }
 h1 {
-	text-shadow: 1px 1px #56bd5e;
+	text-shadow: 1.5px 1.5px #8c8b5e;
 }
 .row h2 {
-	text-shadow: 2px 2px #56bd5e;
+	text-shadow: 1.5px 1.5px #8c8b5e;
 }
