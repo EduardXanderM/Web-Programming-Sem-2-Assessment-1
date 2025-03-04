@@ -52,9 +52,21 @@ body {
 }
 .container_2 div {
 	width: 30%;
+	padding-left: 25px;
+	padding-right: 25px;
 }
-.persona_5_royal {
+.white_with_shadow {
 	color: white; 
 	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
           -1px 1px 0 #000, 1px 1px 0 #000, 4px 4px 0 black;
+}
+.container_3 {
+	display: flex;
+	text-align: center;
+}
+.container_3 div {
+	width: 25%;
+	float: left;
+	padding-left: 35px;
+	padding-right: 35px;
 }
