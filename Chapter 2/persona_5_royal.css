@@ -1,1 +1,60 @@
-p
+li {
+	float: left;
+}
+li a {
+	display: block;
+	padding: 14px 16px;
+	background: #0D0D0D;
+	margin: 0px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	font-size: 18px;
+	border-right: 2px solid;
+	border-left: 2px solid;
+}
+li a:hover {
+	color: #F2E852;
+	background-color: #732424;
+}
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #0D0D0D;
+	position: fixed;
+	width: 98%;
+}
+.active {
+	background-color: #8C6723;
+}
+body {
+	font-family: Tahoma, sans-serif;
+	background-color: #f0e7e7;
+}
+.container_1 {
+	display: flex;
+	text-align: center;
+}
+.container_1_left {
+	width: 15%;
+}
+.container_1_right {
+	width: 15%;
+}
+.container_1_center {
+	width: 70%;
+}
+.container_2 {
+	display: flex;
+	text-align: center;
+}
+.container_2 div {
+	width: 30%;
+}
+.persona_5_royal {
+	color: white; 
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
+          -1px 1px 0 #000, 1px 1px 0 #000, 4px 4px 0 black;
+}
