@@ -10,8 +10,9 @@ li a {
 	text-decoration: none;
 	text-align: center;
 	font-size: 18px;
-	border-right: 2px solid;
-	border-left: 2px solid;
+	border-right: 3px solid;
+	border-left: 3px solid;
+	border-radius: 25px;
 }
 li a:hover {
 	color: #F2E852;
@@ -25,6 +26,7 @@ ul {
 	background-color: #0D0D0D;
 	position: fixed;
 	width: 98%;
+	border-radius: 25px;
 }
 .active {
 	background-color: #8C6723;
@@ -69,4 +71,24 @@ body {
 	float: left;
 	padding-left: 35px;
 	padding-right: 35px;
+}
+.button {
+	border: 3px solid #732424;
+	background-color: white;
+	color: #8C6723;
+	border-radius: 25px;
+	padding: 16px 32px;
+	font-size: 16px;
+	transition-duration: 0.4s;
+	font-weight: 600;
+}
+.button:hover {
+	background-color: #732424;
+	border: 3px solid #F2E852;
+}
+.button a:hover {
+	color: #F2E852;
+}
+.checked {
+  color: orange;
 }
