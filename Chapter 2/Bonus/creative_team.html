@@ -1,0 +1,54 @@
+<!DOCYYPE HTML>
+<html lang="en">
+<head>
+	<title>Persona 5 Royal by Atlus</title> 
+	<meta charset="utf-8"> 
+	<link rel="stylesheet" type="text/css" href="persona_5_royal.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!--Nav Bar-->
+
+<ul id="navbar" style="transition: 0.4s;">
+	<li><a href="index.html">Persona 5 Royal</a></li>
+	<li><a href="plot.html">Plot</a></li>
+	<li><a href="about.html">Key Information</a></li>
+	<li><a href="creative_team.html" class="active">Creative Team</a></li>
+	<li><a href="characters.html">Characters</a></li>
+	<li><a href="reviews.html">Reviews</a></li>
+	<li style="float: right;"><a href="https://persona.atlus.com/p5r/?lang=en" class="official">Go to Persona 5 Royal Official</a></li>
+</ul>
+
+<!--About ATLUS-->
+
+<div class="container_1" style="padding-top: 160px;">
+	<div class="container_1_left">
+	</div>
+	<div class="container_1_center" id="Creative_Team">
+		<span style="font-size: 53px; font-weight: 600;"><a href="#Button" style="text-decoration: none; color: black;"><span class="white_with_shadow">About <span style="font-weight: 600; color: #006cd3;">A<span style="color: #D92323;">T</span>LUS</span></span></a></span>
+		<hr>
+		<br>
+		<span style="font-size: 20px;">
+			<p><span style="font-weight: 600; color: #006cd3;">A<span style="color: #D92323;">T</span>LUS</span> has established itself as one of its industry's most consistent, celebrated brands. With proven success across a variety of genres and platforms, including enthusiast-oriented games like the Shin Megami Tensei franchise of award-winning RPGs, the beloved Persona® series, and the groundbreaking action-adventure/puzzle game Catherine™, 
+			ATLUS creates exceptional, critically acclaimed interactive entertainment for a wide spectrum of players everywhere.</p>
+			<hr>
+		</span>
+	</div>
+	<div class="container_1_right">
+	</div>
+</div>
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "7";
+  } else {
+    document.getElementById("navbar").style.top = "-57px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
+</body>
+</html>
