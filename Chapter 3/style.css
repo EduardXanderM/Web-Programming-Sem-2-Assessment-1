@@ -1,0 +1,38 @@
+.container {
+	display: flex;
+	text-align: left;
+	height: auto;
+	padding-top: 10px;
+}
+.left {
+	width: 40%;
+	float: left;
+	padding-left: 200px;
+}
+.right {
+	width: 60%;
+	float: left;
+	display: block;
+	padding-left: 20px;
+}
+body {
+	background-color: black;
+	font-family: Tahoma, sans-serif;
+	color: white;
+}
+h1 {
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 4px 4px 0 #caa014;
+}
+hr {
+	border: 2px solid white;
+	width: 80%;
+}
+a {
+	text-decoration: none;
+	color: #F2E852;
+}
+a:hover {
+	color: #8C6723;
+}
