@@ -13,6 +13,7 @@ li a {
 	border-right: 3px solid;
 	border-left: 3px solid;
 	border-radius: 25px;
+	transition: 0.3s;
 }
 li a:hover {
 	color: #F2E852;
@@ -33,7 +34,7 @@ ul {
 }
 body {
 	font-family: Tahoma, sans-serif;
-	background-color: #f0e7e7;
+	background-color: #f6f0f0;
 }
 .container_1 {
 	display: flex;
