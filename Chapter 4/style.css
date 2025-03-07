@@ -50,7 +50,7 @@ nav ul li a:hover {
 	background-color: #354bc9;
 	color: white;
 	border: 2px solid #9cabff;
-	border-radius: 10px;
+	border-radius: 15px;
 }
 body {
 	font-family: "Arial";
@@ -61,4 +61,65 @@ body {
 	margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+main {
+	left: 0px;
+	width: 100%;
+	display: inline-block;
+	justify-content: center;
+	padding-top: 80px;
+	font-size: 20px;
+}
+.main {
+	float: left;
+	width: 70%;
+	padding: 25px;
+	padding-right: 35px;
+	padding-top: 70px;
+	line-height: 40px;
+}
+.main img {
+	margin-top: 20px;
+}
+.main hr {
+	border: 2px solid black;
+}
+.sidebar {
+	float: right;
+	width: 30%;
+	background-color: #000f62;
+	color: white;
+	padding: 25px;
+	line-height: 70px;
+	border-radius: 15px 0 0 15px;
+}
+.sidebar p {
+	padding-top: 15px;
+	padding-left: 5px;
+	padding-right: 25px;
+	font-size: 40px;
+	font-weight: 700;
+	
+}
+.sidebar ul {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.sidebar img {
+	display: inline-block;
+	border-radius: 15px;
+}
+.sidebar hr {
+	border: 2px solid white;
+}
+footer {
+	text-align: center;
+	font-family: "Tahoma"; 
+	font-size: 20px;
+	background-color: #5c659a;
+	margin: 0;
+	width: 100%;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
