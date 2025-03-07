@@ -108,6 +108,12 @@ main {
 .sidebar img {
 	display: inline-block;
 	border-radius: 15px;
+	transition: 0.3s;
+}
+.sidebar img:hover {
+	transform: scale(1.5);
+	padding-top: 50px;
+	padding-right: 50px;
 }
 .sidebar hr {
 	border: 2px solid white;
