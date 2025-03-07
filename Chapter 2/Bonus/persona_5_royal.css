@@ -18,6 +18,8 @@ li a {
 li a:hover {
 	color: #F2E852;
 	background-color: #732424;
+	transform: scale(1.1);
+	padding: 13px 26px;
 }
 ul {
 	list-style-type: none;
@@ -91,7 +93,7 @@ body {
 	color: #F2E852;
 }
 .checked {
-  color: orange;
+	color: orange;
 }
 .official {
 	background-color: #D92323;
