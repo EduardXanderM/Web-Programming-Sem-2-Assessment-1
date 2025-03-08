@@ -17,7 +17,7 @@
 }
 body {
 	background-color: black;
-	font-family: Tahoma, sans-serif;
+	font-family: "Roboto", sans-serif;
 	color: white;
 }
 h1 {
@@ -35,4 +35,13 @@ a {
 }
 a:hover {
 	color: #8C6723;
+}
+.img1 {
+	filter: saturate(3);
+}
+.img2 {
+	filter: sepia(70%);
+}
+.img3 {
+	filter: grayscale(70%);
 }
