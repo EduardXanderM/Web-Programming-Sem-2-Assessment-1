@@ -28,7 +28,7 @@ footer {
     font-size: 16px;
     background-color: #2fa857;
     color: white;
-    border: 3px solid #195b2f;
+    border: none;
     border-radius: 15px;
     cursor: pointer;
     transition: 0.3s ease;

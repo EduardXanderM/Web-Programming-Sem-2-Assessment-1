@@ -31,3 +31,14 @@ function playAudio7() {
 function playAudio8() {
     audio_8.play();
 }
+
+function textToSpeech() {
+    var text = document.getElementById("textToSpeech").value;
+    var speech = new SpeechSynthesisUtterance();
+    speech.text = text;
+    speech.lang = "en-US";
+    speech.volume = 1;
+    speech.rate = 1;
+    speech.pitch = 1;
+    window.speechSynthesis.speak(speech);
+}
