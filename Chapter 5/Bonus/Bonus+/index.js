@@ -41,4 +41,5 @@ function textToSpeech() {
     speech.rate = 1;
     speech.pitch = 1;
     window.speechSynthesis.speak(speech);
+    document.getElementById("textToSpeech").value = "";
 }
