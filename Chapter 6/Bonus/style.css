@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+main {
+    text-align: center;
+}
+header {
+    text-align: center;
+    background: linear-gradient(45deg, #40558a, #282469);
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;    
+}
+footer {
+    text-align: center;
+    background: linear-gradient(45deg, #40558a, #282469);
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+.center {
+    margin: 20px auto;
+}
+.center button {
+    margin: 0 5px;
+    padding: 15px 25px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.rBtn {
+    background-color: #bb3838;
+    color: white;
+    border: 1px #bb3838 solid;
+}
+.gBtn {
+    background-color: #3b8e3b;
+    color: white;
+    border: 1px #3b8e3b solid;
+}
+.bBtn {
+    background-color: #3b3b8e;
+    color: white;
+    border: 1px #3b3b8e solid;
+}
+.hearts {
+    color: red;
+    font-size: 35px;
+}
+.retry button {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    font-size: 17px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #40558a, #282469);
+    color: white;
+    border: 1px #282469 solid;
+    cursor: pointer;
+    transition: 0.3s;  
+    display: none; 
+}
+.retry button:hover {
+    transform: scale(1.1);
+    background-color: #3b3b8e;
+    border: 1px #3b3b8e solid;
+}
+.tiles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.tiles button {
+    height: 150px; 
+    border-radius: 10px 0 10px 0;
+    background: #fcf8ef;
+}

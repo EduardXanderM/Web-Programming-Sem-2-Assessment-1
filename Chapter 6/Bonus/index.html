@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Guessing Game</title>
+</head>
+<body>
+    <header>
+        <h1>The Color Guessing Game</h1>
+    </header>
+    <main>
+        <p>Can you guess the color formed when these colors mix? You get three lives, good luck!</p>
+        <div class="center">
+            <button class="noHover rBtn">
+                <p>Red:<span id="r"></span>%</p>
+            </button>
+            <button class="noHover gBtn">
+                <p>Green:<span id="g"></span>%</p>
+            </button>
+            <button class="noHover bBtn">
+                <p>Blue:<span id="b"></span>%</p>
+            </button>
+        </div>
+        <div class="center">
+            <h2>Lives: <span class="hearts"></span></h2>
+        </div>
+        <div class="retry">
+            <button>Play Again</button>
+        </div>
+        <div class="results"> 
+            <p id="result"></p>
+        </div>
+        <div class="tiles">
+            <button class="noHover tile"></button>
+            <button class="noHover tile"></button>
+            <button class="noHover tile"></button>
+            <button class="noHover tile"></button>
+            <button class="noHover tile"></button>
+            <button class="noHover tile"></button>
+        </div>
+    </main>
+    <footer>
+        <p>Created by Eduard Xander M. Mariquita</p>
+    </footer>
+    <script src="color.js"></script>
+</body>
+</html>
