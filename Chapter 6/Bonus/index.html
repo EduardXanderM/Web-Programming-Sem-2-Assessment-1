@@ -7,12 +7,12 @@
     <title>Color Guessing Game</title>
 </head>
 <body>
-    <header>
+    <header> <!--Header-->
         <h1>The Color Guessing Game</h1>
     </header>
-    <main>
+    <main> <!--Text Beneath Header-->
         <p>Can you guess the color formed when these colors mix? You get three lives, good luck!</p>
-        <div class="center">
+        <div class="center"> <!--Shows the RGB Values-->
             <button class="noHover rBtn">
                 <p>Red:<span id="r"></span>%</p>
             </button>
@@ -22,17 +22,17 @@
             <button class="noHover bBtn">
                 <p>Blue:<span id="b"></span>%</p>
             </button>
-        </div>
+        </div> <!--Lives Counter-->
         <div class="center">
             <h2>Lives: <span class="hearts"></span></h2>
         </div>
-        <div class="retry">
+        <div class="retry"> <!--Play Again Button (Hidden)-->
             <button>Play Again</button>
         </div>
-        <div class="results"> 
+        <div class="results"> <!--Result shown on game over--> 
             <p id="result"></p>
         </div>
-        <div class="tiles">
+        <div class="tiles"> <!--6 Tiles for Guessing Color-->
             <button class="noHover tile"></button>
             <button class="noHover tile"></button>
             <button class="noHover tile"></button>
@@ -41,9 +41,9 @@
             <button class="noHover tile"></button>
         </div>
     </main>
-    <footer>
+    <footer> <!--Footer for the creator-->
         <p>Created by Eduard Xander M. Mariquita</p>
     </footer>
-    <script src="color.js"></script>
+    <script src="color.js"></script> <!--JavaScript Source-->
 </body>
 </html>

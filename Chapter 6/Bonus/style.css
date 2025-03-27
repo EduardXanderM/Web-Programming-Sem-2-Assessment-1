@@ -1,21 +1,21 @@
-* {
+* { /* Erases padding and margin around the whole HTML */
     padding: 0;
     margin: 0;
 }
-body {
+body { /* Font */
     font-family: "Roboto", sans-serif;
 }
-main {
+main { /* Align Center for text */
     text-align: center;
 }
-header {
+header { /* Formats Header */
     text-align: center;
     background: linear-gradient(45deg, #40558a, #282469);
     color: white;
     padding: 20px;
     margin-bottom: 10px;    
 }
-footer {
+footer { /* Formats Footer */
     text-align: center;
     background: linear-gradient(45deg, #40558a, #282469);
     color: white;
@@ -25,35 +25,35 @@ footer {
     width: 100%;
     position: fixed;
 }
-.center {
+.center { /* Class for aligning center */
     margin: 20px auto;
 }
-.center button {
+.center button { /* Formatting the Buttons that display RGB values */
     margin: 0 5px;
     padding: 15px 25px;
     font-size: 15px;
     border-radius: 5px;
 }
-.rBtn {
+.rBtn { /* Red Value Button */
     background-color: #bb3838;
     color: white;
     border: 1px #bb3838 solid;
 }
-.gBtn {
+.gBtn { /* Green Value Button */
     background-color: #3b8e3b;
     color: white;
     border: 1px #3b8e3b solid;
 }
-.bBtn {
+.bBtn { /* Blue Value Button */
     background-color: #3b3b8e;
     color: white;
     border: 1px #3b3b8e solid;
 }
-.hearts {
+.hearts { /* Formatting of the heart sybols before emoji in case of error (leftover from original hearts sybols) */
     color: red;
     font-size: 35px;
 }
-.retry button {
+.retry button { /* Formatting of Retry Button */
     margin-top: 5px;
     margin-bottom: 20px;
     padding: 15px 20px;
@@ -66,12 +66,12 @@ footer {
     transition: 0.3s;  
     display: none; 
 }
-.retry button:hover {
+.retry button:hover { /* Retry Button Hover */
     transform: scale(1.1);
     background-color: #3b3b8e;
     border: 1px #3b3b8e solid;
 }
-.tiles {
+.tiles { /* Formatting of the Tiles Div Class */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
@@ -80,7 +80,7 @@ footer {
     margin-left: 20px;
     margin-right: 20px;
 }
-.tiles button {
+.tiles button { /* Format of the individual tiles */
     height: 150px; 
     border-radius: 10px 0 10px 0;
     background: #fcf8ef;
