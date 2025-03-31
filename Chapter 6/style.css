@@ -1,10 +1,10 @@
-* {
+* { /* Reset all elements to have no margin, padding, or border */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
-main {
+main { /* Creates the central div */
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(45deg, #010758, #490d61);
@@ -14,27 +14,27 @@ main {
     justify-content: center;
     flex-direction: column;
 }
-main h1 {
+main h1 { /* Formats the main title */
     font-size: 45px;
     font-weight: 700;
     margin-top: -50px;
     margin-bottom: 50px;
     color: white;
 }
-main h1 span {
+main h1 span { /* Formats the main title span */
     color: #de5c50;
 }
-main hr {
+main hr { /* Formats the horizontal line */
     width: 40%;
     border: 1px solid white;
     margin-top: -30px;
     margin-bottom: 20px;
 }
-main h2 {
+main h2 { /* Formats the sub titles */
     color: white;
     margin-top: 20px;
 }
-main textarea {
+main textarea { /* Formats the text area for the inputs */
     margin: 20px;
     resize: none;
     width: 300px;
@@ -47,18 +47,18 @@ main textarea {
     outline: 0;
     padding: 10px;
 }
-textarea::placeholder {
+textarea::placeholder { /* Placeholder text formatting in the text area */
     color: #ddd;
     font-size: 16px;
 }
-textarea:focus {
+textarea:focus { /* Focused text area formatting */
     border: 1px solid white;
 }
-#total {
+#total { /* Formats the total value text area */
     color: #de5c50;
     font-size: 30px;
 }
-button {
+button { /* Formats the buttons */
     padding: 10px 15px;
     border: none;
     border-radius: 15px;
@@ -69,7 +69,7 @@ button {
     margin: 10px;
     transition: 0.3s ease;
 }
-button:hover {
+button:hover { /* Button hover effect */
     background: #ff7b72;
     transform: scale(1.05);
 }
